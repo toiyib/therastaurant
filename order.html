@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สั่งอาหาร</title>
+    <link rel="stylesheet" href="order.css">
+</head>
+<body>
+    <header>
+        <h1>รายการสั่งอาหาร</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">หน้าแรก</a></li>
+                <li><a href="menu.html">เมนู</a></li>
+                <li><a href="order.html">สั่งอาหาร</a></li>
+                <li><a href="contact.html">ติดต่อเรา</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>เลือกประเภทและเมนู</h2>
+
+        <form id="orderForm" class="form-box">
+            <label for="category">ประเภท:</label>
+            <select id="category" name="category">
+                <option value="" selected disabled>เลือกประเภท</option>
+                <option value="เครื่องดื่ม">เครื่องดื่ม</option>
+                <option value="เมนูอาหารหลัก">เมนูอาหารหลัก</option>
+                <option value="เมนูเส้น">เมนูเส้น</option>
+                <option value="เมนูทานเล่น">เมนูทานเล่น</option>
+                <option value="เมนูไอศครีม">เมนูไอศครีม</option>
+            </select>
+
+            <div id="menuContainer" >
+                <label for="menu">เมนู:</label>
+                <select id="menu" name="menu">
+                    <option value="" selected disabled>เลือกเมนู</option>
+                </select>
+                <button type="button" id="addMenu">เพิ่ม</button> 
+                <a class="a1" href="menu.html">ดูเมนูเพิ่มเติม</a>
+            </div>
+
+            <ul id="selectedItems"></ul>
+
+            <button type="button" id="submitOrder">ยืนยันการสั่งซื้อ</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; toiyeebah</p>
+    </footer>
+
+    <script src="order.js"></script>
+</body>
+</html>

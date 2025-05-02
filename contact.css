@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 คอลัมน์ */
+    gap: 0.5em; /* ช่องว่างระหว่างคอลัมน์ */
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* จัดกลางแนวตั้ง */
+    align-items: center; /* จัดกลางแนวนอน */
+    flex: 1;
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /*  คอลัมน์ */
+    gap: 1em; /* ช่องว่างระหว่างคอลัมน์ */
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.grid-item {
+    background-color: #fff;
+    padding: 0.5em;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0);
+    text-align: center; /* จัดกลางข้อความ */
+}
+.grid-item i {
+    font-size: 1.5em; /* ขนาดไอคอน */
+    margin-right: 0.5em; /* ช่องว่างระหว่างไอคอนและข้อความ */
+}
+.column1 p {
+    font-size: 1.2em; /* ขนาดฟอนต์ที่เพิ่มขึ้นสำหรับคอลัมน์ที่ 1 */
+    text-align: center; /* จัดกลางข้อความ */
+}
+
+h1 {
+    grid-column: span 2; /* ให้หัวข้ออยู่เหนือสองคอลัมน์ */
+    text-align: center; /* จัดกลางข้อความ */
+    margin-bottom: 0.5em; /* ช่องว่างด้านล่างของหัวข้อ */
+    font-size: 2em; /* ขนาดฟอนต์ที่เพิ่มขึ้นสำหรับคอลัมน์ที่ 1 */
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

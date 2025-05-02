@@ -1,0 +1,126 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    padding: 1px;
+    padding-bottom: 0;
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    margin-bottom: 0;
+    
+}
+
+.form-box {
+    background-color: #f9f9f9; /* สีพื้นหลัง */
+    padding: 20px; /* เพิ่มระยะห่างภายในกล่อง */
+    border-radius: 10px; /* ทำให้ขอบกล่องโค้ง */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เพิ่มเงาให้กล่อง */
+    max-width: 400px; /* ความกว้างสูงสุดของกล่อง */
+    margin: 0 auto; /* จัดให้กล่องอยู่ตรงกลาง */
+}
+
+h2 {
+    text-align: center; /* จัดตำแหน่งหัวเรื่องให้อยู่ตรงกลาง */
+}
+
+label, select, button {
+    display: block;
+    width: 100%; /* ทำให้ปุ่มและตัวเลือกกว้างเต็มพื้นที่ */
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007BFF; /* สีของปุ่ม */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* สีเมื่อ hover */
+}
+
+a.a1 {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+label {
+    margin-top: 1px;
+}
+
+select {
+    padding: 5px;
+    margin: 5px 0;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #666;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.a1 {
+    
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #dfdf52;
+    color: #a13d3d;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #666;
+}
+
+#selectedItems {
+    margin-top: 20px;
+}
+
+#selectedItems li {
+    margin-bottom: 5px;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

@@ -1,0 +1,96 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 0.8em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+
+h1 {
+    font-size: 40px;
+    font-family: 'Abril Fatface', serif;
+
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 คอลัมน์ */
+    gap: 1em; /* ช่องว่างระหว่างคอลัมน์ */
+    margin-bottom: 1px;
+    padding-bottom: 10px;
+}
+
+.menu-category {
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.menu-category h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.image {
+    width: 200px; /* กำหนดความกว้างให้รูปภาพ */
+    height: 200px; /* กำหนดความสูงให้รูปภาพ */
+    object-fit: cover; /* ทำให้รูปภาพพอดีกับพื้นที่ที่กำหนดและตัดส่วนเกิน */
+    margin: 20px;
+}
+
+.a1 {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 10px;
+    background-color: #7c7979;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0.7em;
+    
+    width: 100%;
+    bottom: 0;
+    margin-top: 7px;
+    
+}
